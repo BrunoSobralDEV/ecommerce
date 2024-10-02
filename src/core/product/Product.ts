@@ -8,7 +8,7 @@ export default interface Product extends Priceable {
   brand: string
   model: string
   image: string
-  note: number
+  rating: number
   videoReview: string
   tags: string[]
   specifications: Specifications
