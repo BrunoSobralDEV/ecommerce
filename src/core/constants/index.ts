@@ -1,7 +1,11 @@
+import products from "./products";
+
 const MAX_INSTALLMENTS = 12;
 const MONTHLY_INTEREST_RATE = 0.0167;
 
 
 export {
-  MAX_INSTALLMENTS, MONTHLY_INTEREST_RATE
+  products,
+  MAX_INSTALLMENTS, 
+  MONTHLY_INTEREST_RATE
 }
