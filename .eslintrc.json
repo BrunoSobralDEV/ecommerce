@@ -1,6 +1,17 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"],
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript"
+  ],
+  "plugins": [
+    "prettier",
+    "simple-import-sort"
+  ],
   "rules": {
+    "simple-import-sort/imports": "error",
+    "prettier/prettier": [
+      "error"
+    ],
     "@typescript-eslint/no-explicity-any": "off"
   }
 }
